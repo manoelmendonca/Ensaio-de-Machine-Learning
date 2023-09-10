@@ -1,6 +1,5 @@
 # Ensaio de Machine-Learning
 
-
 ## Descrição
 A empresa Data Money acredita que a expertise no treinamento e ajuste fino dos algoritmos feito pelos Cientistas de Dados da empresa é o principal motivo para os ótimos resultados que as consultorias vem entregando aos seus clientes.
 
