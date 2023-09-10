@@ -69,7 +69,7 @@ asdf
 ![classificacao_resultados](img/ensaio2_regressao.png)
 
 ## Ensaio de clusterização:
-![classificacao_resultados](img/ensaio2_clusterizacao.png)
+![classificacao_resultados](img/ensaio3_clusterizacao.png)
 
 
 # Conclusão
