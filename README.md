@@ -1,5 +1,3 @@
-![banner](img/BannerFML.png)
-
 # ENSAIO DE MACHINE LEARNING
 
 ## Descrição
@@ -7,6 +5,8 @@ A empresa Data Money acredita que a expertise no treinamento e ajuste fino dos a
 
 ## Objetivo
 O objetivo desse projeto é realizar ensaios com algoritmos de Classificação, Regressão e Clusterização, para estudar o impacto em seu desempenho, à medida em que são alterados os valores dos principais parâmetros de controle de <i>overfitting</i> e <i>underfitting</i>.
+
+![banner](img/BannerFML.png)
 
 
 # PLANEJAMENTO DA SOLUÇÃO
