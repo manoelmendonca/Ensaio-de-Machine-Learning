@@ -50,8 +50,8 @@ O conjunto de valores que fizerem os algoritmos alcançarem o melhor desempenho 
 
 # OS TOP 3 INSIGHTS
 
-### Insight Top 1
-Os algoritmos baseados em árvores - tanto <i>Decision Tree</i> quanto <i>Random Forest</i> - foram os que apresentaram os melhores desempenhos sob condições de produção, isto é, no conjunto de dados de teste. Isso foi observado tanto nos ensaios de classificação quanto no ensaios de regressão. Em especial, os testes mostraram ótimo desempenho da <i>Random Forest</i> no ensaio de regressão, tomando-se por base a métrica MSE.
+## Insight Top 1
+Os algoritmos baseados em árvores - tanto <i>Decision Tree</i> quanto <i>Random Forest</i> - foram os que apresentaram os melhores desempenhos sob condições de produção, isto é, utilizando o conjunto de dados de teste. Isso foi observado tanto nos ensaios de classificação quanto no ensaios de regressão. Em especial, os testes mostraram ótimo desempenho da <i>Random Forest</i> no ensaio de regressão, tomando-se por base a métrica MSE.
 
 ## Insight Top 2
 O desempenho dos algoritmos de classificação sobre os dados de teste/produção ficou bem próximo do obtido sobre os dados de validação.
