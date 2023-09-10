@@ -1,4 +1,4 @@
-# Ensaio de Machine-Learning
+# ENSAIO DE MACHINE LEARNING
 
 ## Descrição
 A empresa Data Money acredita que a expertise no treinamento e ajuste fino dos algoritmos feito pelos Cientistas de Dados da empresa é o principal motivo para os ótimos resultados que as consultorias vem entregando aos seus clientes.
@@ -7,7 +7,7 @@ A empresa Data Money acredita que a expertise no treinamento e ajuste fino dos a
 O objetivo desse projeto é realizar ensaios com algoritmos de Classificação, Regressão e Clusterização, para estudar o impacto em seu desempenho, à medida em que são alterados os valores dos principais parâmetros de controle de overfitting e underfitting.
 
 
-# Planejamento da solução
+# PLANEJAMENTO DA SOLUÇÃO
 
 ## Produto final
 O produto final é um conjunto de 7 tabelas mostrando o desempenho dos algoritmos, avaliados usando múltiplas métricas, para 3 conjuntos de dados diferentes: treinamento, validação e teste.
@@ -30,7 +30,7 @@ O produto final é um conjunto de 7 tabelas mostrando o desempenho dos algoritmo
 Python 3.10 e Scikit-learn
 
 
-# Desenvolvimento
+# DESENVOLVIMENTO
 
 ## Estratégia da solução
 Para o objetivo de ensaiar os algoritmos de Machine Learning, eu vou escrever os códigos utilizando a linguagem Python, para treinar cada um dos algoritmos e vou variar seus principais parâmetros de ajuste de overfitting e observar a métrica final.
@@ -48,19 +48,19 @@ O conjunto de valores que fizerem os algoritmos alcançarem o melhor desempenho 
 - Passo 9: Avaliar os ensaios e anotar os 3 principais Insights que se destacaram.
 
 
-# Os top 3 Insights
+# OS TOP 3 INSIGHTS
 
 ### Insight Top 1
-asdf
+Os algoritmos baseados em árvores - tanto <i>Decision Tree</i> quanto <i>Random Forest</i> - foram os que apresentaram os melhores desempenhos sob condições de produção, isto é, no conjunto de dados de teste. Isso foi observado tanto nos ensaios de classificação quanto no ensaios de regressão. Em especial, os testes mostraram ótimo desempenho da <i>Random Forest</i> no ensaio de regressão, tomando-se por base a métrica MSE.
 
 ## Insight Top 2
-asdf
+O desempenho dos algoritmos de classificação sobre os dados de teste/produção ficou bem próximo do obtido sobre os dados de validação.
 
 ## Insight Top 3
-asdf
+Todos os algoritmos de regressão apresentaram erro percentual elevado, haja vista a métrica MAPE superior a 8,2%. Tem-se aí a possibilidade de pesquisarmos a melhor seleção de atributos e preparação do conjunto de dados, como forma de melhorar o desempenho final dos algoritmos.
 
 
-# Resultados
+# RESULTADOS
 
 ## Ensaio de classificação:
 ![classificacao_resultados](img/ensaio1_classificacao.png)
@@ -72,12 +72,12 @@ asdf
 ![classificacao_resultados](img/ensaio3_clusterizacao.png)
 
 
-# Conclusão
+# CONCLUSÃO
 No presente ensaio de Machine Learning, consegui adquirir experiência e entender melhor sobre os limites dos algoritmos entre os estados de underffiting e overfitting.
 
 Algoritmos baseados em árvores são sensível quanto a profundidade do crescimento e do número de árvores na floresta, fazendo com que a escolha correta dos valores desses parâmetros impeça os algoritmos de entrar no estado de overfitting. Os algoritmos de regressão, por outro lado, são sensíveis ao grau do polinômio. Esse parâmetro controla o limite entre o estado de underfitting e overfitting desses algoritmos.
 
 Esse ensaio de Machine Learning foi muito importante para aprofundar o entendimento sobre o funcionamento de diversos algoritmos de classificação, regressão e clusterização e quais os principais parâmetros de controle entre os estados de underfitting e overfitting.
 
-# Próximos passos
+# PRÓXIMOS PASSOS
 Como próximos passos desse ensaio, pretendo ensaiar novos algoritmos de Machine Learning e usar diferentes conjuntos de dados para aumentar o conhecimento sobre os algoritmos e quais cenários são mais favoráveis para o aumento do seu desempenho.
