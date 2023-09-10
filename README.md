@@ -63,13 +63,13 @@ asdf
 # Resultados
 
 ## Ensaio de classificação:
-figura.1
+![classificacao_resultados](img/ensaio1_classificacao.png)
 
 ## Ensaio de regressão:
-figura.2
+![classificacao_resultados](img/ensaio2_regressao.png)
 
 ## Ensaio de clusterização:
-figura.3
+![classificacao_resultados](img/ensaio2_clusterizacao.png)
 
 
 # Conclusão
