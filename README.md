@@ -4,13 +4,13 @@
 A empresa Data Money acredita que a expertise no treinamento e ajuste fino dos algoritmos feito pelos Cientistas de Dados da empresa é o principal motivo para os ótimos resultados que as consultorias vem entregando aos seus clientes.
 
 ## Objetivo
-O objetivo desse projeto é realizar ensaios com algoritmos de Classificação, Regressão e Clusterização, para estudar o impacto em seu desempenho, à medida em que são alterados os valores dos principais parâmetros de controle de overfitting e underfitting.
+O objetivo desse projeto é realizar ensaios com algoritmos de Classificação, Regressão e Clusterização, para estudar o impacto em seu desempenho, à medida em que são alterados os valores dos principais parâmetros de controle de <i>overfitting</i> e <i>underfitting</i>.
 
 
 # PLANEJAMENTO DA SOLUÇÃO
 
 ## Produto final
-O produto final é um conjunto de 7 tabelas mostrando o desempenho dos algoritmos, avaliados usando múltiplas métricas, para 3 conjuntos de dados diferentes: treinamento, validação e teste.
+O produto final é um conjunto de tabelas mostrando o desempenho dos algoritmos, avaliados usando múltiplas métricas, para 3 conjuntos de dados diferentes: treinamento, validação e teste.
 
 ## Algoritmos ensaiados
 
@@ -33,15 +33,16 @@ Python 3.10 e Scikit-learn
 # DESENVOLVIMENTO
 
 ## Estratégia da solução
-Para o objetivo de ensaiar os algoritmos de Machine Learning, eu vou escrever os códigos utilizando a linguagem Python, para treinar cada um dos algoritmos e vou variar seus principais parâmetros de ajuste de overfitting e observar a métrica final.
-O conjunto de valores que fizerem os algoritmos alcançarem o melhor desempenho serão aqueles escolhidos para o treinamento final do algoritmo.
+Para o objetivo de ensaiar os algoritmos de Machine Learning, providenciamos a elaboração de códigos utilizando a linguagem Python, com o objetivo de treinar cada um dos algoritmos. Nesses testes, foi realizada a variação sistemática de cada um dos principais parâmetros de ajuste de <i>overfitting</i> e observada a métrica final.
+O conjunto de valores que fizerem os algoritmos alcançarem o melhor desempenho foram aqueles escolhidos para o treinamento final do algoritmo.
+Estão disponíveis para consulta neste repositório os arquivos do tipo Jupyter com os códigos implementados, bem assim os resultados numéricos e gráficos obtidos.
 
 ## O passo a passo
 - Passo 1: Divisão dos dados em treino, teste e validação.
 - Passo 2: Treinamento dos algoritmos com os dados de treinamento, utilizando os parâmetros “default”.
 - Passo 3: Medir o desempenho dos algoritmos treinados com o parâmetro default, utilizando o conjunto de dados de treinamento.
 - Passo 4: Medir o desempenho dos algoritmos treinados com o parâmetro “default”, utilizando o conjunto de dados de validação.
-- Passo 5: Alternar os valores dos principais parâmetros que controlam o overfitting do algoritmo até encontrar o conjunto de parâmetros apresente o melhor desempenho dos algoritmos.
+- Passo 5: Alternar os valores dos principais parâmetros que controlam o <i>overfitting</i> do algoritmo até encontrar o conjunto de parâmetros apresente o melhor desempenho dos algoritmos.
 - Passo 6: Unir os dados de treinamento e validação
 - Passo 7: Retreinar o algoritmo com a união dos dados de treinamento e validação, utilizando os melhores valores para os parâmetros de controle do algoritmo.
 - Passo 8: Medir o desempenho dos algoritmos treinados com os melhores parâmetro, utilizando o conjunto de dados de teste.
@@ -73,11 +74,11 @@ Todos os algoritmos de regressão apresentaram erro percentual elevado, haja vis
 
 
 # CONCLUSÃO
-No presente ensaio de Machine Learning, consegui adquirir experiência e entender melhor sobre os limites dos algoritmos entre os estados de underffiting e overfitting.
+No presente ensaio de Machine Learning, consegui adquirir experiência e entender melhor sobre os limites dos algoritmos entre os estados de <i>underffiting</i> e <i>overfitting</i>.
 
-Algoritmos baseados em árvores são sensível quanto a profundidade do crescimento e do número de árvores na floresta, fazendo com que a escolha correta dos valores desses parâmetros impeça os algoritmos de entrar no estado de overfitting. Os algoritmos de regressão, por outro lado, são sensíveis ao grau do polinômio. Esse parâmetro controla o limite entre o estado de underfitting e overfitting desses algoritmos.
+Os algoritmos baseados em árvores são sensível quanto a profundidade do crescimento e do número de árvores na floresta, fazendo com que a escolha correta dos valores desses parâmetros impeça os algoritmos de entrar em estado de <i>overfitting</i>. Por sua vez, os algoritmos de regressão polinomial são sensíveis ao grau do polinômio. Esse parâmetro controla o limite entre o estado de <i>underfitting</i> e <i>overfitting</i> desses algoritmos.
 
-Esse ensaio de Machine Learning foi muito importante para aprofundar o entendimento sobre o funcionamento de diversos algoritmos de classificação, regressão e clusterização e quais os principais parâmetros de controle entre os estados de underfitting e overfitting.
+Esse ensaio de Machine Learning foi muito importante para aprofundar o entendimento prático sobre o funcionamento de diversos algoritmos de classificação, regressão e clusterização, bem assim permitiu compreender quais os principais parâmetros de controle entre os estados de <i>underfitting</i> e <i>overfitting</i>.
 
 # PRÓXIMOS PASSOS
-Como próximos passos desse ensaio, pretendo ensaiar novos algoritmos de Machine Learning e usar diferentes conjuntos de dados para aumentar o conhecimento sobre os algoritmos e quais cenários são mais favoráveis para o aumento do seu desempenho.
+Como próximos passos desse ensaio, pretendo ensaiar novos algoritmos de Machine Learning e usar diferentes conjuntos de dados para aumentar o conhecimento sobre os mesmos, bem assim verificar quais cenários são mais favoráveis para o aumento do seu desempenho.
